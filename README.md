@@ -31,7 +31,7 @@ $$
 IOI_i = t_i - t_{i-1}
 $$
 
-where (t_i) is the onset time of the current note and (t_{i-1}) is the onset time of the previous note.
+where $$(t_i)$$ is the onset time of the current note and $$(t_{i-1})$$ is the onset time of the previous note.
 
 We then calculate the entropy of the resulting intervals:
 
