@@ -40,3 +40,10 @@ H_{\text{IOI}} = -\sum_{d \in D} P(d)\log_2 P(d)
 $$
 
 where (D) is the set of distinct inter-onset intervals and (P(d)) is the proportion of intervals equal to (d).
+
+We identify 2 costs in reducing chamber music. 
+
+1. A part making sudden, un-smooth shifts (an instrument playing the melody, and then immediately switching to accompaniment).
+2. Introducing redundant parts in the rearranged score, while missing other nuances. (The melody being covered in multiple voices, while missing accompaniment).
+
+To reduce these costs, we introduce dynamic programming algorithms. They recursively search through the music, trying to build parts with maximum information, while minimizing awkward jumps.
